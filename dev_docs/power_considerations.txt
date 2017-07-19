@@ -1,0 +1,12 @@
+Power Considerations
+--------------------
+Reference: 
+	Standard coin cell battery 3V, 250mAh
+
+
+1. Build with constantly on display, hour:minute:second 8x16 font.
+	power consumed: >6 mA
+	battery life:	41hours
+
+2. Added "idle" function for 500ms from the LowPower library
+	power consumed: <4 mA
