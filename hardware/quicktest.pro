@@ -1,4 +1,4 @@
-update=7/18/2017 8:41:28 AM
+update=7/21/2017 8:37:35 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,5 @@ LibName31=B:/Program Files/KiCad/share/kicad/library/battery_management
 LibName32=C:/Users/matthew/Documents/KiCadComponents/mpu-9250
 LibName33=B:/Program Files/KiCad/share/kicad/library/maxim
 LibName34=B:/Program Files/KiCad/share/kicad/library/transistors
+LibName35=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/mod-oled-128x64-cache
+LibName36=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/oled

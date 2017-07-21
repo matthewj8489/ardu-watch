@@ -32,6 +32,8 @@ LIBS:switches
 LIBS:battery_management
 LIBS:mpu-9250
 LIBS:maxim
+LIBS:mod-oled-128x64-cache
+LIBS:oled
 LIBS:quicktest-cache
 EELAYER 25 0
 EELAYER END
@@ -871,4 +873,15 @@ Text GLabel 6750 3300 2    60   Input ~ 0
 FS
 Text GLabel 1500 4450 0    60   Input ~ 0
 FS
+$Comp
+L SSD1306 OLEDM?
+U 1 1 597388E9
+P 2450 6400
+F 0 "OLEDM?" H 2350 6550 60  0000 C CNN
+F 1 "SSD1306" H 2350 6400 60  0000 C CNN
+F 2 "" H 2450 6400 60  0000 C CNN
+F 3 "" H 2450 6400 60  0000 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
