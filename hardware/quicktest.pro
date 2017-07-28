@@ -1,4 +1,4 @@
-update=7/25/2017 7:33:24 AM
+update=7/28/2017 7:39:10 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,4 +65,9 @@ LibName33=B:/Program Files/KiCad/share/kicad/library/maxim
 LibName34=B:/Program Files/KiCad/share/kicad/library/transistors
 LibName35=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/mod-oled-128x64-cache
 LibName36=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/oled
-LibName37=C:/Users/matthew/Documents/KiCadComponents/fts31xs-u-ssop
+LibName37=C:/Users/matthew/Documents/KiCadComponents/ft231xs-u-ssop
+LibName38=B:/Program Files/KiCad/share/kicad/library/ftdi
+LibName39=B:/Program Files/KiCad/share/kicad/library/nordicsemi
+LibName40=B:/Program Files/KiCad/share/kicad/library/power
+LibName41=B:/Program Files/KiCad/share/kicad/library/Power_Management
+LibName42=B:/Program Files/KiCad/share/kicad/library/powerint
