@@ -24,6 +24,7 @@ MicroOLED oled(PIN_RESET, PIN_DC, PIN_CS); // SPI declaration
 /////////////////////
 #define BUTTON_0 2
 #define BUTTON_1 3
+#define MOTOR   12
 
 void display_method_1();
 void pushbutton0Pressed();
@@ -57,6 +58,7 @@ void setup() {
   pinMode(BUTTON_0, INPUT);  // Pushbutton
   pinMode(BUTTON_1, INPUT);
   pinMode(13, OUTPUT); // LED
+  pinMode(MOTOR, OUTPUT);
   
   oled.begin();    // Initialize the OLED
   oled.clear(ALL); // Clear the display's internal memory
@@ -297,6 +299,9 @@ void loop() {
 
   if (displayOn) {
     display_method_1();
+    digitalWrite(MOTOR, HIGH);
+    delay(1000);
+    digitalWrite(MOTOR, LOW);
     if (resetMillis == 0)
       resetMillis = millis() + 4000;
     if (millis() >= resetMillis) {
