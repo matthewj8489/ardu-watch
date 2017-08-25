@@ -1,4 +1,4 @@
-update=8/21/2017 8:12:45 AM
+update=8/24/2017 8:23:42 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../KiCadComponents
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,17 +58,11 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=B:/Program Files/KiCad/share/kicad/library/switches
-LibName31=B:/Program Files/KiCad/share/kicad/library/battery_management
-LibName32=C:/Users/matthew/Documents/KiCadComponents/mpu-9250
-LibName33=B:/Program Files/KiCad/share/kicad/library/maxim
-LibName34=B:/Program Files/KiCad/share/kicad/library/transistors
-LibName35=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/mod-oled-128x64-cache
-LibName36=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/oled
-LibName37=C:/Users/matthew/Documents/KiCadComponents/ft231xs-u-ssop
-LibName38=B:/Program Files/KiCad/share/kicad/library/ftdi
-LibName39=B:/Program Files/KiCad/share/kicad/library/nordicsemi
-LibName40=B:/Program Files/KiCad/share/kicad/library/power
-LibName41=B:/Program Files/KiCad/share/kicad/library/Power_Management
-LibName42=B:/Program Files/KiCad/share/kicad/library/powerint
-LibName43=C:/Users/matthew/Documents/KiCadComponents/r_network_8
+LibName30=C:/Users/matthew/Documents/KiCadComponents/ft231xs-u-ssop
+LibName31=C:/Users/matthew/Documents/KiCadComponents/mpu-9250
+LibName32=C:/Users/matthew/Documents/KiCadComponents/r_network_8
+LibName33=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/mod-oled-128x64-cache
+LibName34=C:/Users/matthew/Documents/MOD-OLED-128x64/HARDWARE/MOD-OLED-128x64_Rev.A/oled
+LibName35=B:/Program Files/KiCad/share/kicad/library/maxim
+LibName36=B:/Program Files/KiCad/share/kicad/library/switches
+LibName37=EXB-38V103JV
