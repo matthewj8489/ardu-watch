@@ -330,7 +330,7 @@ Text GLabel 8750 5000 2    60   Input ~ 0
 A3
 Text GLabel 8750 4900 2    60   Input ~ 0
 A2
-Text GLabel 8750 4800 2    60   Input ~ 0
+Text GLabel 8750 4700 2    60   Input ~ 0
 A1
 Text GLabel 13500 3850 0    60   Input ~ 0
 PB0
@@ -338,7 +338,7 @@ Text GLabel 13500 4150 0    60   Input ~ 0
 PB1
 Text GLabel 13500 4450 0    60   Input ~ 0
 PB2
-Text GLabel 8750 4700 2    60   Input ~ 0
+Text GLabel 8750 4800 2    60   Input ~ 0
 SPKR
 $Comp
 L SSD1306 OLEDM1
@@ -346,7 +346,7 @@ U 1 1 599EF395
 P 2600 7750
 F 0 "OLEDM1" H 2500 7900 60  0000 C CNN
 F 1 "SSD1306" H 2500 7750 60  0000 C CNN
-F 2 "aw-1:SSD1306-FPC" H 2600 7750 60  0001 C CNN
+F 2 "aw-1:SSD1306-FPC-foldover" H 2600 7750 60  0001 C CNN
 F 3 "" H 2600 7750 60  0000 C CNN
 	1    2600 7750
 	1    0    0    -1  
